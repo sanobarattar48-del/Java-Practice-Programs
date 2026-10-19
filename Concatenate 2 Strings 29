@@ -1,0 +1,11 @@
+class Main {
+    public static void main(String[] args) {
+
+       String s1 = "Sanobar";
+       String s2 = "Kshtija";
+
+       String result = s1+s2 ;
+        
+        System.out.println("Combined String : "+ result);
+    }
+}
