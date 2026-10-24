@@ -1,0 +1,12 @@
+public class Main {
+    public static void main(String[] args) {
+        char ch = '5';
+
+        if (ch >= '0' && ch <= '9') {
+            System.out.println("It is a digit");
+        } else {
+            System.out.println("It is not a digit");
+        }
+    }
+
+}
