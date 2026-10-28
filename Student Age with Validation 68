@@ -1,0 +1,24 @@
+class Student {
+    private int age;
+
+    void setAge(int age) {
+        if (age >= 18) {
+            this.age = age;
+        } else {
+            System.out.println("Invalid age");
+        }
+    }
+
+    int getAge() {
+        return age;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Student s = new Student();
+
+        s.setAge(20);
+        System.out.println("Age: " + s.getAge());
+    }
+}
