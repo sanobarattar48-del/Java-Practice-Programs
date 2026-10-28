@@ -1,0 +1,19 @@
+class Appliance {
+    void powerOn() {
+        System.out.println("Appliance is switched ON");
+    }
+}
+
+class WashingMachine extends Appliance {
+    void startWash() {
+        super.powerOn();
+        System.out.println("Washing machine started");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        WashingMachine w = new WashingMachine();
+        w.startWash();
+    }
+}
