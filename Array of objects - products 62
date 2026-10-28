@@ -1,0 +1,27 @@
+class Product {
+    int id;
+    String name;
+
+    Product(int id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+
+    void display() {
+        System.out.println(id + " " + name);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Product[] p = new Product[3];
+
+        p[0] = new Product(1, "Laptop");
+        p[1] = new Product(2, "Mouse");
+        p[2] = new Product(3, "Keyboard");
+
+        for (Product x : p) {
+            x.display();
+        }
+    }
+}
