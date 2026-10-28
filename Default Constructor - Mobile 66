@@ -1,0 +1,21 @@
+class Mobile {
+    String model;
+    int storage;
+
+    Mobile() {
+        model = "Galaxy";
+        storage = 128;
+    }
+
+    void display() {
+        System.out.println("Model: " + model);
+        System.out.println("Storage: " + storage + " GB");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Mobile m = new Mobile();
+        m.display();
+    }
+}
